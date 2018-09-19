@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - mesh-face-up
+  - mesh-face-down
+  - mesh-face-left
+  - mesh-face-right
+  - mesh-face-back
+  - mesh-face-forward
   layers:
   - Default
   - TransparentFX

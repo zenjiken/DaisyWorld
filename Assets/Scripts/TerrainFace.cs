@@ -64,15 +64,6 @@ public class TerrainFace{
 
 	}
 
-	public IEnumerator Destroy() {
-		yield return null;
-		for(int i = 0; i< tileCount; i++) {
-			if(tileObjects [i] != null) {
-				Object.DestroyImmediate(tileObjects [i]);
-			}
-		}
-	}
-
 	private void InitializeTiles(GameObject tilesParent) {
 		tiles = new TerrainTile[tileCount];
 		tileObjects = new GameObject[tileCount];

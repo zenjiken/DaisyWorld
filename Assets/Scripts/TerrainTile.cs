@@ -34,7 +34,7 @@ public class TerrainTile : MonoBehaviour {
 		collider = gameObject.AddComponent<MeshCollider> ();
 		collider.sharedMesh = mesh;
 		collider.convex = true;
-//		collider.inflateMesh = true;
-//		collider.skinWidth = Mathf.Epsilon;
+		collider.inflateMesh = true;
+		collider.skinWidth = Mathf.Epsilon;
 	}
 }
